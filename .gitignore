@@ -1,3 +1,15 @@
+# Results
+code/learn_4_dim_linear_disentangled_representation/vae/1*
+code/learn_4_dim_linear_disentangled_representation/inputs*
+code/learn_4_dim_linear_disentangled_representation/actions*
+code/learn_4_dim_linear_disentangled_representation/data/modelnet40/
+
+# PyCharm
+.idea
+
+# Jupyter Notebooks
+jupyter_notebooks/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

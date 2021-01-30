@@ -141,6 +141,7 @@ for i in trange(1):
 end = time.time()
 print(end - start)
 
+
 def translate(action):
     if action == 1:
         res = 'up'

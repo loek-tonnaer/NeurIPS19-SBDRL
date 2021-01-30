@@ -118,6 +118,7 @@ def train_vae(folder):
 	early_stop = False
 
 	for epoch in range(NUMBER_OF_EPOCHS_VAE):
+		print(f"---------- Starting epoch {epoch} of {NUMBER_OF_EPOCHS_VAE}")
 		running_loss = []
 		running_losses = []
 

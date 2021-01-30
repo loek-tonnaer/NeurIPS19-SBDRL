@@ -1,0 +1,9 @@
+#!/bin/bash
+source /home/TUE/s071171/miniconda3/etc/profile.d/conda.sh
+conda activate disentangling-pytorch
+
+python data/generate_data.py pixel
+
+python 01_train_vae_sans_cos_sin.py
+
+conda deactivate

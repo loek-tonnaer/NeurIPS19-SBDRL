@@ -252,7 +252,7 @@ class Env(object):
         import os, os.path
         self.iter = len([name for name in os.listdir('images/')])
         image = np.asarray(pil_image.convert('RGB'))[10:74,10:74,:]
-        image.setflags(write=1)
+        #image.setflags(write=1)  # TODO: COMMENTED OUT BECAUSE IT CAUSED AN ERROR, check if still works
         """im_final = []
         for i in range(len(image)):
             if sum(image[i])!=0:"""
